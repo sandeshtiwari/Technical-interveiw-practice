@@ -12,6 +12,14 @@ The solution finds the longest palindromic substring by going over all the combi
 case time complexity of this solution is O(n^2), where n is  the  number of letters in the given string. The space
 complexity is O(1) because we only store the left_index, right_index, longest, and the longest_pal variable.
 
+Question 3:
+This problem can be solved by using a famous algorithm called Kruskal's algorithm. The main idea of this algorithm
+is to sort the edges first by their weight and add the edge without having to add a cycle. If a new edge is to be
+connect two nodes within the same set, then the node will not be included. The time complexity of this algorimthm is
+different for different parts. To generate the list will take O(E) time and O(E) space. Sorting will take O(E log(E))
+time and O(E) space for sure. The looping causes takes O(E * V) time and O(E) space. Finally, to convert the edges 
+to the graph will take O(E) time and O(V) space. 
+
 Question 4:
 In this problem we can find the lowest common parent by storing all the ancestors of one node and comparing it with
 all the parent nodes of the other node. In the worst case the time complexity will be O(n) if the tree is not balanced
