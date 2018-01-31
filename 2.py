@@ -22,3 +22,13 @@ def question2(string):
                 right_index = j
     longest_pal = string[left_index:right_index]
     return longest_pal
+
+longest = question2("Some one call my dad in malayalam")
+# malayalam
+print (longest)
+longest = question2(None)
+# 
+print (longest)
+longest = question2("")
+# 
+print(longest)
