@@ -1,3 +1,10 @@
+# function to check if the given string is palindrome or not
+def is_palindrome(string):
+    if string == None:
+        return False
+    # reversing the string to compare
+    return string == string[::-1]
+
 # function to find the longest palindromic string
 def question2(string):
     if string == None:
