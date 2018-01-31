@@ -1,0 +1,8 @@
+Question 1: 
+We can check if two strings are anagram by counting number of characters of the strings. After we count the characters,
+we need to compare the substring from the main string. The substring will have the same length as the string which
+we are comparing to. If any set of the compared string is an anagram of the main string, then return true else false.
+The comparison of the characters will be done in constant time. The for loop will have O(len(original_string)) in
+the worst case. So the time complexity for this program is O(n), where n is the length of the main string. The space
+complexity of the alogrithm will be a constant, i.e. O(1) as we are storing the strings and their respective lengths
+only. 
