@@ -17,3 +17,12 @@ def check_anagram(string1, string2):
     # Sorting string1 to compare - O(n*log(n))
     string1.sort()
     return string1 == string2
+x = question1("udacity", "wxyzabc")
+# x = False
+print (x)
+y = question1("udacity", "da")
+# y = True
+print (y)
+z = question1("udacity", "")
+# z = True
+print (z)
