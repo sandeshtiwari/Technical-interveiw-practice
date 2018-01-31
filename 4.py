@@ -17,3 +17,18 @@ def question4(T, r, n1, n2):
         if n2 in parents_of_n1:
             return n2
     return -1
+
+# Function to return the immediate parent of a given node in the Tree T   
+def get_parent(T, n):
+    rows = len(T)
+    for i in range(rows):
+        # if the node value is 1 then, n is the child of i. So return i
+        if T[i][n] == 1:
+            return i
+    # return -1 if no parent was found
+    return -1
+
+
+x = question4([[0,1,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[1,0,0,0,1],[0,0,0,0,0]],3,1,4)
+# output is 3
+print(x)
