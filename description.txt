@@ -17,3 +17,10 @@ In this problem we can find the lowest common parent by storing all the ancestor
 all the parent nodes of the other node. In the worst case the time complexity will be O(n) if the tree is not balanced
 because we might need to go through the tree as if it was a linear data structure. The space complexity will be O(1)
 as we only have variables and one list to keep track of. 
+
+Question 5:
+In this question we can find the mth element form the end of the list by implementing a LinkedList class. I wrote a
+method "push" to insert elements at the end of the linked list. The method question5 returns the mth element from the
+end of the list by looping until the (length-m-1) is found,i.e. the mth element is found. The worst time complexity for
+pusing an element into the list is O(n), where n is the number of elements in the list. The worst time complexity of
+getting the mth element from the end is also O(n). The space complexity is O(1) because we are using only variables.
