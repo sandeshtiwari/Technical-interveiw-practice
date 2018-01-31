@@ -1,0 +1,1 @@
+This is a technical interview practice project for the Full Stack Nanodegree with Udacity. There are 5 different questions, and solutions. The description of the solutions is explained in the description.txt file
