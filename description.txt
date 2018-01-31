@@ -6,3 +6,8 @@ The comparison of the characters will be done in constant time. The for loop wil
 the worst case. So the time complexity for this program is O(n), where n is the length of the main string. The space
 complexity of the alogrithm will be a constant, i.e. O(1) as we are storing the strings and their respective lengths
 only. 
+
+Question 2:
+The solution finds the longest palindromic substring by going over all the combinaitons starting at the index 0. The worst
+case time complexity of this solution is O(n^2), where n is  the  number of letters in the given string. The space
+complexity is O(1) because we only store the left_index, right_index, longest, and the longest_pal variable.
