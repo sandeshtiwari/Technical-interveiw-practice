@@ -1,3 +1,7 @@
+'''
+Given a string a, find the longest palindromic substring contained in a.
+Your function definition should look like question2(a), and return a string.
+'''
 # function to check if the given string is palindrome or not
 def is_palindrome(string):
     if string == None:
